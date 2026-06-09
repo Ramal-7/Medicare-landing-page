@@ -1,0 +1,32 @@
+.div-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+table{
+    margin:auto;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+ text-align: center;
+ background-color: rgb(171, 171, 171);
+}
+th{
+    color: black;
+    text-align: center;
+}
+tr{
+    background-color: rgb(170, 159, 197);
+    border-bottom: 1px solid #dddddd;
+}
+tr :hover{
+    background-color: rgb(168, 144, 171);
+}
+td{
+    padding: 12px 15px
+}
+image{
+    width: 50px ;
+    border-radius: 50%;
+}

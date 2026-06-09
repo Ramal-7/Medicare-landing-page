@@ -1,0 +1,29 @@
+.cta {
+    background-color: #2e8b57; /* sea green */
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .cta-btn {
+    background-color: white;
+    color: #2e8b57;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .cta-btn:hover {
+    background-color: #f0f0f0;
+  }
+  

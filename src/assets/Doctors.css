@@ -1,0 +1,44 @@
+.doctors {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .doctors h2 {
+    color: #2e8b57;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .doctor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .doctor-card {
+    background-color: #f3f3f3;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .doctor-card h3 {
+    margin: 0.5rem 0;
+    color: #2e8b57;
+  }
+  
+  .doctor-card p {
+    color: #555;
+  }

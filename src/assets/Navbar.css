@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 5%;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgb(11, 14, 14);
+}
+.navlinks{
+     list-style:none;
+      display :flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      margin:0 ;
+    padding: 0;
+}
+.navlinks li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }  
+.navlinks li a:hover,
+.navlinks li a.active {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+  }

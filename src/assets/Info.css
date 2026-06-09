@@ -1,0 +1,27 @@
+.information {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }  
+  .listimg {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }  
+  .list-info {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }  
+  .listbox {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }  

@@ -1,0 +1,21 @@
+.Formbox{
+        background : #344;
+         padding: 15px;
+        margin: 2rem auto;
+        padding: 2rem;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+    
+}
+.Formbox input,
+.Formbox textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
